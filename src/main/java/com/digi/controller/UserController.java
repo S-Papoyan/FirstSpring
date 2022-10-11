@@ -1,11 +1,10 @@
 package com.digi.controller;
 
 import com.digi.model.User;
-import com.digi.model.service.UserService;
+import com.digi.model.dto.UserDTO;
+import com.digi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,5 +18,14 @@ public class UserController {
     @GetMapping("/get-all")
     public List<User> getAll (){
         return userService.getAll();
+    }
+
+    @GetMapping("/get-single-user")
+    public User getById(@RequestParam int id){
+        return userService.getById(id);
+    }
+    @PostMapping
+    public void save(@RequestBody UserDTO userDTO){
+        userService.save(userDTO);
     }
 }
