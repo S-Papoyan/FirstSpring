@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5434a3f-50e9-4498-904a-4915c0c28915" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/digi/model/dto/UserDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/digi/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digi/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digi/model/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digi/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digi/model/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digi/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/digi/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digi/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digi/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digi/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digi/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digi/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,8 @@
       <workItem from="1665073016834" duration="5652000" />
       <workItem from="1665208927777" duration="7855000" />
       <workItem from="1665415241464" duration="605000" />
-      <workItem from="1665502510934" duration="6397000" />
+      <workItem from="1665502510934" duration="6544000" />
+      <workItem from="1665675936810" duration="6275000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1665211118963</created>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665217138890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1665509683201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665509683201</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

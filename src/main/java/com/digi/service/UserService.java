@@ -12,4 +12,8 @@ public interface UserService {
     User getById(int id);
 
     void save(UserDTO userDTO);
+
+    void updateEmail(String email, int id);
+
+    void delete(int id);
 }
